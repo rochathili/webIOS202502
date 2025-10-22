@@ -1,0 +1,22 @@
+/* Para usar uma fonte da internet podemos usar o @import do site especificado. No exemplo abaixo utilizamos o site Google Fonts para importar e utilizar uma nova font-family */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+NKo+Unjoined:wght@400..700&display=swap');
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    letter-spacing: 10px;
+    text-align: center;
+    /* text-shadow: 
+    1° valor: deslocamento horizontal
+    2° valor: deslocamento vertical
+    3° valor: desfoque
+    4° valor: cor da sombra */
+    text-shadow: -10px 20px 5px yellowgreen;
+}
+
+p{
+    font-family: "Noto Sans NKo Unjoined", sans-serif;
+    text-align: center;
+    width: 600px;
+}

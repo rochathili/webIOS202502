@@ -1,0 +1,32 @@
+body {
+    /*Faz com que o elemento tenha uma imagem como fundo*/
+    background-image: url("https://wallpapers.com/images/featured/imagem-engracada-de-cachorro-f0sbo1li5pvc91oj.jpg");
+    /*Faz com que a imagem de fundo preencha a tela*/
+    background-size: cover;
+}
+
+#red {
+    color: rgb(255, 45, 45);
+}
+
+#green {
+    color: green;
+}
+
+#blue {
+    color: blue;
+}
+
+h2 {
+    font-size: 70px;
+    color: rgba(90, 25, 255, 0.369)
+}
+
+p {
+    /* HEX ou código hexadecimal representa uma cor específica. Esse código é como você receberá de seu designer as cores para construir os sites de seus clientes. */
+    color: #71f518;
+}
+
+header {
+    background-color: rgb(125, 248, 207);
+}
