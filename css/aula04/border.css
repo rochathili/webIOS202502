@@ -1,0 +1,17 @@
+h1 {
+    /* border-width determina o tamanho da borda */
+    border-width: 10px;
+    /* border-color determina a cor da borda */
+    border-color: black;
+    /* border-style determina o formato da borda */
+    border-style: double;
+}
+ 
+p {
+     /* Podemos criar bordas de maneiro abreviada utilizando apenas a propriedade border.
+     border recebe 3 valores, sendo eles:
+     tamanho (5px)
+     tipo (dashed)
+     cor (yellow) */
+    border: 5px dashed yellow;
+}
